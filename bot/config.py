@@ -3,7 +3,7 @@
 from decouple import config
 
 try:
-    APP_ID = config("21857983", cast=int)
+    APP_ID = int(os.environ.get("21857983"))
     API_HASH = config("e469e84c943ce3b8b056eb6a296f2c67")
     BOT_TOKEN = config("7670762731:AAGiMUsnRysNwWFN_kKg7YQ61FXJ_pvLyjE")
     DEV = ""
