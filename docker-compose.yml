@@ -7,11 +7,11 @@ services:
       dockerfile: Dockerfile
     container_name: tgvid-comp
     environment:
-      - APP_ID=${21857983}
-      - API_HASH=${e469e84c943ce3b8b056eb6a296f2c67}
-      - BOT_TOKEN=${7670762731:AAGiMUsnRysNwWFN_kKg7YQ61FXJ_pvLyjE}
-      - OWNER=${833465134}
-      - THUMBNAIL=${https://envs.sh/PvC.jpg}
+      - APP_ID=${APP_ID}
+      - API_HASH=${API_HASH}
+      - BOT_TOKEN=${BOT_TOKEN}
+      - OWNER=${OWNER}
+      - THUMBNAIL=${THUMBNAIL}
     volumes:
       - "/codebase:/codebase"
       - "/storage:/storage"
